@@ -20,7 +20,7 @@ export const Cards = ({ id, text }) => {
 
   return (
     <div ref={drag} style={{ ...dragStyles, opacity: isDragging ? 0.5 : 1 }}>
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '18rem',boxShadow:"0px 0px 10px rgba(0,0,0,0.5)",display:"inline-block"}}>
         <Card.Body>
           <Card.Text>{text}</Card.Text>
           <Button variant="primary">Move</Button>

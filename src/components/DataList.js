@@ -1,16 +1,21 @@
 const DataList = [
     {
         id:1,
-        text:"reactjs"
+        text:"Reactjs"
     },
     {
         id:2,
-        text:"python django"
+        text:"Python Django"
     },
     {
         id:3,
-        text:"ruby rails"
+        text:"Ruby Rails"
     },
+    {
+        id:4,
+        text:"HTML"
+    },
+    
     
 ]
 
